@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.paxtechnology.paxapp.Activity.WalletAddActivity"
+    android:background="@drawable/back_img2">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/close_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_close_white" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:text="Topup"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_dimens"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/close_img"
+                    app:layout_constraintStart_toEndOf="@+id/close_img"
+                    app:layout_constraintTop_toTopOf="@+id/close_img" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout12"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/border_square_white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/close_img">
+
+                    <TextView
+                        android:id="@+id/textView26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="Wallet Balance"
+                        android:textSize="@dimen/subtitle_dimens"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/Rs"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/subtitle_dimens"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+                    <TextView
+                        android:id="@+id/wallet_balance_tx"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="500"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/subtitle_dimens"
+                        app:layout_constraintBottom_toBottomOf="@+id/textView33"
+                        app:layout_constraintStart_toEndOf="@+id/textView33"
+                        app:layout_constraintTop_toTopOf="@+id/textView33" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/wallet_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView33"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/wallet_balance_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@drawable/rupee"
+                            android:hint="Enter Amount"
+                            android:inputType="number"
+                            android:textSize="@dimen/subtitle_dimens"
+                            android:theme="@style/MyEditText">
+                        <requestFocus />
+                        </com.google.android.material.textfield.TextInputEditText>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout8"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/border_square_black"
+                        app:layout_constraintEnd_toStartOf="@+id/constraintLayout10"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/wallet_layout">
+
+                        <TextView
+                            android:id="@+id/textView36"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="+"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintStart_toStartOf="@+id/textView38"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView37"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/Rs"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintBottom_toBottomOf="@+id/textView36"
+                            app:layout_constraintEnd_toEndOf="@+id/textView38"
+                            app:layout_constraintStart_toEndOf="@+id/textView36"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView38"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="100"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout10"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp"
+                        android:background="@drawable/border_square_black"
+                        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout8"
+                        app:layout_constraintEnd_toStartOf="@+id/constraintLayout11"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/constraintLayout8"
+                        app:layout_constraintTop_toTopOf="@+id/constraintLayout8">
+
+
+                        <TextView
+                            android:id="@+id/textView39"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="+"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintStart_toStartOf="@+id/textView41"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView40"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:text="@string/Rs"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintBottom_toBottomOf="@+id/textView39"
+                            app:layout_constraintEnd_toEndOf="@+id/textView41"
+                            app:layout_constraintStart_toEndOf="@+id/textView39"
+                            app:layout_constraintTop_toTopOf="@+id/textView39" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="250"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView40" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout11"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_square_black"
+                        app:layout_constraintBottom_toBottomOf="@+id/constraintLayout10"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toEndOf="@+id/constraintLayout10"
+                        app:layout_constraintTop_toTopOf="@+id/constraintLayout10">
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="500"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:text="+"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintStart_toStartOf="@+id/textView42"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="9dp"
+                            android:layout_marginTop="8dp"
+                            android:text="@string/Rs"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/small_dimen"
+                            app:layout_constraintBottom_toBottomOf="@+id/textView43"
+                            app:layout_constraintEnd_toEndOf="@+id/textView42"
+                            app:layout_constraintStart_toEndOf="@+id/textView43"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/add_balance_tx"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="24dp"
+                        android:background="@drawable/border_square"
+                        android:gravity="center"
+                        android:text="ADD BALANCE"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/subtitle_dimens"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/constraintLayout10" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/border_square_white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout12">
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Convenience fee for top-up is as under:"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/medium_dimens"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:drawableLeft="@drawable/dot_black"
+                        android:drawablePadding="@dimen/small_dimen"
+                        android:text="For Credit : 1.8 % of top-up"
+                        android:textSize="@dimen/medium_dimens"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:drawableLeft="@drawable/dot_black"
+                        android:drawablePadding="@dimen/small_dimen"
+                        android:text="For Debit card : 0.9 % of top-up above Rs. 2000, 0 for amount below Rs. 2000"
+                        android:textSize="@dimen/medium_dimens"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:drawableLeft="@drawable/dot_black"
+                        android:drawablePadding="@dimen/small_dimen"
+                        android:text="For UPI : 0.65 % of top-up above Rs. 2000, 0 for amount below Rs. 2000"
+                        android:textSize="@dimen/medium_dimens"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

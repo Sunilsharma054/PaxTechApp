@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Pax App</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--<string name="my_prefrence">"com.example.com.MyPref"</string>-->
+    <string name="my_prefrence_key">"com.example.com.MyPrefKey"</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="Rs">\u20B9</string>
+    <string name="amount_in">Amount (In \u20B9)</string>
+    <string name="policy_title">At Federal Bank our principal concern is the responsible use of information that users and clients share and disclose to us. Federal Bank\'s commitment towards guaranteed confidentiality and privacy at all times is clearly articulated in our Privacy Policy. We will use our best efforts to ensure that the information you submit to us remains private, and is used only for the purpose for which it is submitted.</string>
+    <string name="personal_info">We collect information that users provide voluntarily to us, in the form of feedback. Federal Bank does not provide any information of users to a third party without specifically informing the users at the time of collection or without the express consent of users themselves.</string>
+    <string name="access_log">Federal Bank logs IP addresses, browser type, number of pages viewed etc. in order to provide better service for our users. We use the information to get page view statistics, to analyze trends and better understand the usage of the site, and for system administration purposes.</string>
+    <string name="user_information">Federal Bank reserves the right to perform statistical analysis of user behaviours and preferences in order to measure user\'s relative interests in the various areas of the web site for the purpose of product and service development. The analysis is anonymous and not tagged to identifiable users. The analytical data that Federal Bank collects is for internal use only to improve the content and services of its web site. In return, users will benefit from improved quality of services.</string>
+    <string name="third_party_text">Unless Federal Bank specification informs users at the time of collection, or unless users give express consent, Federal Bank does not provide any personally identifying information to a third party. However, if subpoenaed or ordered by court of law, Federal Bank will have to disclose to the proper authorities the personal information proper authorities the personal information of any individual user.</string>
+    <string name="other_materials">Linked sites are not under the control of Federal Bank, and Federal Bank will not be held responsible for the content or privacy policies of any linked sites or any links containing other linked sites.</string>
+    <string name="police_consent">Federal Bank will, as and when it deems fit to do so, change, alter or modify its Privacy Policy. Users are advised to visit the site continually in order to monitor changes in the policy, as the policy will be binding upon them in relation to their use of Federal Bank\'s services.</string>
+    <string name="fraud_transaction"><![CDATA[Please contact Customer Care at << Customer Care Number>>?]]></string>
+
+    <string name="text_1">These terms and conditions (\" <b>Terms and Conditions</b>\") apply to and regulate the provisions of prepaid payment instruments namely iMudra Card(s) (collectively \"Prepaid Cards\" or \"Cards\" or \"PPIs\") provided by <b>Indian Railway Catering and Tourism Corporation Limited </b>(\"the Company\"). The PPIs are issued by Federal Bank and powered by Pax.
+        \n\n By completing the sign-up process for availing any of the Cards, you are deemed to have expressly read, understood and accepted each and every Terms and Conditions mentioned herein. You agree to be bound by all the Terms and Conditions mentioned herein, as may be amended from time to time.
+        \n\n The Services are not intended for use by individuals under eighteen (18) years of age (or the applicable age of majority, if greater than eighteen(18) years of age). If an end-user is under eighteen (18) years of age (or the applicable age of majority, if greater than eighteen (18) years of age) and /or is unable to enter into legally binding contracts under applicable law, that end-user does not have permission to use and/or access the Site and/or Services.
+        \n\n In this agreement, \"We\", \"Us\" or \"Our\" refers to the Federal Bank , or the Company/Pax acting on behalf of Federal Bank. \"You\" or \"Your\" refers to the individual purchasing or using the Prepaid Card.
+    </string>
+
+    <string name="text_a"> <b>1. DEFINITIONS</b>
+        \n\n In this Terms and Conditions, unless the contrary intention appears and/or the Context otherwise requires, Capitalized terms defined by: (i) inclusion in quotations and/or parenthesis have the meaning so ascribed; and (ii) the following terms shall have the meaning assigned to them herein below
+        \n\n a)\"Account\" refers to a prepaid account with an account balance equivalent to amount loaded on the PPIs, for the purpose of monitoring the limits available on such PPIs.
+        \n\n b) \"Business Day\" means a day other than a Sunday, 2nd or 4th Saturday of a Month or Public Holiday as defined under Section 25 of Negotiable Instrument Act, 1881 on which bank are open to transact business of banking
+        \n\n c) \"Charges\" means such levy, costs and charges levied by us usage of the PPIs, as amended from time to time
+        \n\n d) \"Customer\" or \"Holder\" or \"You\" shall mean any person to whom the PPI is issued and who is authorised to hold and use the same against the value stored on such PPi
+        \n\n e) \"Customer Care Centre\" refers to contact centre provided by us for addressing all queies, complaints raised by the Customer or any details or information sought by the Customer in relation to the PPIs.
+        \n\n f) \"EDC\" or \"Electronic Data Capture\" Machine means terminal, printer, other peripheral and accessory and necessary software on which the PPI can be swiped or used to initiate a transaction
+        \n\n g) \"Internet Payment Gateway\" means the protocol stipulated/to be stipulated by us authorising the payments made using PPI over the internet upon authentication of the Customer.
+        \n\n h) \"KYC\" shall means Know Your Customer guidelines adopted by us for the purpose of identification and verification of Customer, pursuant to the Regulations issued by Reserve Bank of India, from time to time.
+        \n\n i) \"Merchant Establishments\" shall means such physical establishments (including but not limited to stores, shops, restaurants, hotels, etc.) and Reloadable stores (in any type of electronic form including but not limitedto e-commerce platforms, digital marketplaces, etc.) located in India, having a specific contract with us (or a contract through a payment aggregator/ payment gateway/ card network) for accepting PPI.
+        \n\n j) \"Payment Channel\" shall means various modes of transactions including but not limited to EDC/POS terminals/kiosks/Internet Payment Gateway/ Mobile based payment solutions and various other modes as intimated by us from time to time.
+        \n\n k) \"Personal Identification Number (PIN)\" is a numeric password provided to the Customer by us.
+        \n\n l) \"POS\" or \"Point of sale\" means electronic terminals maintained by Merchant Establishments in India at which the Customer can use the PPI.
+        \n\n m) \"PPI\" shall mean a prepaid instrument which includes gift cards and meal cards that facilitates purchases against the value stored on such PPIs as defined in the Regulations.
+        \n\n n) \"Regulations\" shall mean the master directions, circulars, notifications, rules, guidelines, regulations, etc. issued by Reverve Bank of India or any other competent authority related to issuance and operation of prepaid payment instruments in India, as amended from time to time.
+        \n\n o) \"Schedule of Charges\" shall mean the details of fees or charges as may be prescribed by us from time to time and displayed on our.
+        \n\n p) \"Transaction\" means any transaction initiated by the Customer using PPI at any Merchant Establishment.
+        \n\n q) \"Federal Bank\" or \"Issuer\" shall mean The Federal Bank Ltd., a banking company within the meaning of Companies Act, 2013 having its registered office at Federal Towers, P B NO 103, Aluva, Ernakulam - 683101.
+        \n\n r) \"IRCTC\" or \"the Company\" shall mean <b> Indian Railway Catering and Tourism Corporation Limited</b>, a company within the meaning of the Companies Act, 2013, having its registered office at B-148, 11th Floor, Stateman House, New Delhi - 110001.
+        \n\n s) \"Pax\" shall mean Pax Technologies Pvt. Ltd., a company incorporated within the meaning of companies Act, 2013 having its registered office at M-10, Gren Park Main, New Delhi - 110016.
+
+    </string>
+
+    <string name="text_a1"> <b>II. ISSUANCE AND USAGE OF PPI</b>
+        \n\n a) The PPI shall be the exclusive property of Issuer.
+        \n\n b) The PPI shall be valid only within the territory of India and for transactions in Indian Rupees only. The PPI cannot be used outside the territory of India or for any transactions denominated in foreign currency.
+        \n\n c)The Customer shall be required sign on the reverse side of the PPI (if the PPI is in the card form) immediately upon its receipt. We reserve the right to reject or cancel any Transaction in absence of the signature, without further notice or intimation to the Customer.
+        \n\n d) The PPI shall not be transferable to other individual or third party under any circumstances.
+        \n\n e) We shall not be liable to pay any interest on any balance maintained in the PPI at any point in time.
+        \n\n f) The Customer agrees and confirms that the PIN shall, under no circumstances be revealed by the Customer to any relative or family members or third party. The Customer shall be solely responsible and liable for the consequences arising out of such unauthorized usage of the PPI. We disclaim all responsibility and liability arising out of or in connection with the unauthorized usage of the PPI and/or any loss or damage, whether direct or indirect, incurred by the Customer as a result of such misuse. If the Customer should visit the website or mobile application or any other mode as may be made available by us for re-generation of PIN.
+        \n\n g) We will inform or intimate the Customer 45 days prior to the expiry of the PPI through SMS on the registered mobile number of the Customer or as specified in the Regulations applicable from time to time. Customer needs to utilize the entire credit balance available on the PPI prior to its expiry. In case the Customer does not utilize the credit balance available on the PPI within the validity period, the Customer can approach us for renewal of the PPI. In case the Customer does not approach us within a specified period, the outstanding credit balance available on the PPI will be transferred to a fund in compliance with the Regulations.
+        \n\n h) The Customer shall signand retain all the charge slips generated for each of the Transaction consummated at a Merchant Establishment. We shall not be obliged to provide copies of the charge slips or transaction slips to the Customer. Any such request by the Customer will be at our sole discretion and provided such requests have been made by the Customer within forty-five (45) Business Days from the date of the Transaction. The Customer agrees that we shall be entitled to charge additional cost or charge for providing copies of the charge or transaction slips.
+        \n\n i) Any charge or cost levied by the Merchant Establishment in relation to any Transaction shall be directly settled by the Customer with the Merchant Establishment. We shall not be liable or responsible, either directly or indirectly, for any act or omission on the part of the Merchant Establishment or the charges or cost levied by them in relation to the Transaction.
+        \n\n j) All refunds and adjustments due to any Merchant Establishments on account of device error or communication link will be processed manually and the Acount will be credited after due varification by us pursuant to the applicable rules, regulation and our internal policy. The Customer agrees that any subsequent TransactionData will be accepted or honored only based on the available credit balance in the Account without taking into account any disputed amount under consideration by us. The Customer shall unconditionally keep us indemnified against any loss or damage caused to us on account of dishonoring the payment instructions as a result of insufficient funds in the Account. The Customer agrees that we shall be entitled to deduct the amount of such loss or damaged caused to us directly from the Account.
+        \n\n k) The Customer undertakes to act in good faith at all times in relation to all dealings of the PPI. The Customer accepts full responsibility for any illegal or wrongful use of the PPI in contravention to the Terms and Conditions contained herein.
+        \n\n l) The Customer hereby agrees not to use the PPI for making payment(s) of any goods and services, which is illegal under the laws. The PPI cannot be used for making purchases of prohibited or contraband products or services like lottery tickets, banned or prohibited magazines, participation in sweepstakes, purchase of bitcoins, payment for call-back services, etc.
+        \n\n m) We do not take any responsibility for any loss, damage or injuries suffered or caused to the Customer in connection with the service, quality of goods and services provided by Merchant Establishment, refusal to accept (conditional acceptance) the PPI by Merchant Establishment and inability (technical issues) to use the PPI at Merchant Establishment.
+        \n\n n) The Customer hereby acknowledges and agrees that if there is no Transaction for a consecutive period of one (1) year on the PPI, subject to validity of the PPI, the same shall be made inactive by us after sending a notice to the Customer. The PPI can only be reactivated by us after validation and requisite due diligence, asd stipulated fro time to time.
+        \n\n o) The Customer hereby agrees to receive SMS or email alerts from us for all TransactionData done using the PPI. The SMS or email alerts from us shall stipulate debit and credit TransactionData, balance available or remaining on the PPI or such other information or details as stipulated by us, from time to time.
+        \n\n p) The Customer agrees that we may, at our sole discretion, utilize the services of external service provider(s) or agent(s) on such terms as required or necessary, for provisioning of the services in ralation to the PPI.
+        \n\n q) The Customer shall have access to Frequently Asked Questions(\"FAQ\") as uploaded by us on our website, from time to time.
+    </string>
+
+    <string name="text_a2"> <b>III. BREACH</b>
+        \n\n a) In the event of any breach of these Terms and Conditions by the Customer, we shall have the sole right to forthwith cancel or terminate the PPI without having any Liability, claim, demand or dispute against us.
+        \n\n b) The Customer undertakes and agrees to indemnify us against any loss, damage, claim, penalty, cost, charge or expenses (including legal counsel fees) that we may incur and/or suffer, whether directly or indirectly, as a result of the Customer committing any breach of the Terms and Conditions contained herein.
+    </string>
+
+    <string name="text_a3"> <b>IV. TERM &amp; TERMINATION</b>
+        \n\n a) The PPI shall be valid until the expiry date printed on the face of the PPI.
+        \n\n b) The Customer agrees and undertakes to destroy the PPI its expiry.
+        \n\n c) The Customer agrees that the PPI shall be defaced by cutting off the top right-hand corner, ensuring that both the hologram and the magnetic strip have been cut and has been destroyed or received by us. The Customer agrees that the Customer shall continue to be liable for any Charges incurred on the PPI prior to its termination, irrespective of the fact whether the Customer has or claims to have destroyed the PPI.
+        \n\n d) We may at our sole discretion terminate the PPI if:
+        \n\n i. the Customer is declared insolvent or in case of death of the Customer.
+        \n\n ii. the Customer committing breach of any of the terms, conditions, stipulations or its obligations under these Terms and Conditions.
+        \n\n iii. any restriction imposed on the Customer by an Order of a competent Court or Order issued by any regulatory or statutory authority in India or any investigating agency.
+        \n\n iv. the program becomes illegal under the applicable law, and Regulations.
+        \n\n v. the program is terminated.
+
+        \n\n e) We, at our sole discretion, reserves the right to, either temporarily or permanently, withdraw the privileges on the PPI and/or terminate the PPI at any time without giving any notice or assigning any reason thereof. In case of a temporary withdrawal, the privileges attached to the PPI shall be reinstated by us at our sole discretion. In case of a permanent withdrawal, we have a right to cancel the PPI permanently. However, it is made distinctly clear that withdrawal (temporary or permanent) shall constitute automatic withdrawal of all benefits, privileges and services attached to the PPI. The Customer agrees that in the event of temporary or permanent withdrawal of the PPI, the Customer shall continue to be fully liable for all Charges incurred on the PPI prior to such withdrawal, together with all other applicable Charges thereon, unless otherwise specified by us.
+        \n\n f) If we temporarily or permanently, withdraws the privileges or terminates the PPI, we will on best effort basis, promptly notify the Customer. We shall not be held liable or responsible for any such delays or laches in receipt of such notification.
+        \n\n g)Upon termination of the PPI as stated above, the balance amount, if any lying in the Account will be refunded back to the source.
+    </string>
+
+    <string name="text_a4"> <b>V. CHARGES</b>
+        \n\n a) Charges shall include:
+        \n\n  i. Any fees charged by us in respect of the PPI, including replacement, renewal, handling and other fees, if any.
+        \n\n  ii. Service Charges on specific types of TransactionData. The method of computation of such Charges will be as notified by We from time to time.
+        \n\n b) Charges shall be non-refundable, non-transferrable and non-assignable in nature.
+        \n\n c) All Charges, in the absence of manifest error, shall be final and binding on the Customer and shall be conclusive in nature.
+        \n\n d) All statutory taxes including goods and service tax, imposts, duties (of any description whatsoever) as may be levied from time to time by Goverment of India or other competent authority in respect of or in connection with the PPI, shall be borne by the Customer.
+        \n\n e) All Charges related to the PPI will be debited from the Account, as may be levied from time to time. The Customer shall become liable to pay as soon as a charge has been incurred by use of the PPI.
+    </string>
+
+    <string name="text_a5"><b>VI. LOST, STOLEN OR MISUSED PPI</b>
+        \n\n a) If the PPI is lost or stolen, the Customer must immediatly report such loss or theft to Customer Care Centre and request for immediate suspension of the PPI.
+        \n\n b) The Customer acknowledges that once the PPI is reported lost, stolen or damaged, such PPI cannot be used again, even if found subsequently.
+        \n\n c) The Customer is responsible for the security of the PPI and shall take all steps towards ensuring that the PPI is not misused. In the event we determines or receives any information that the Customer has neglected or refused or failed to take steps as indicated above, in case of loss, theft or distruction of the PPI, we reserve the sole right to cancel or terminate such PPI.
+        \n\n d) No liability shall accrue upon the Customer for any unauthorized transactions done on the PPI, after such PPI has been reported lost, stolen or damaged by the Customer. All liabilities accrued on the PPI, post reeporting by the Customer shall be borne by us. However, in case of any dispute relating to the time of reporting and/or transaction(s) made on the PPI, post reporting of the PPI being lost, stolen or misused, all our decisions shall be final and binding on the Customer.
+    </string>
+
+
+    <string name="text_a6"> <b>VII. EXCLUSION OF LIABILITY</b>
+        \n\n We shall be under no liability or responsibility to the Customer or any third party, in respect of any special, indirect, incidental, consequential, punitive or exemplary loss or damage including, but not limited to, lost profits in connection with this artrangement.
+        \n\n <b>VIII. DISPUTED TRANSACTIONS </b>
+        \n\n a) Any charge or Transaction slip oer other payment requisition received by us for payment shall be conclusive proof of such Charge, unless the PPI is lost, stolen or fraudulently misused and evidenced by the Customer.
+        \n\n b) All disputed TransactionData in relation to the PPI shall be required to be raised with our Customer Care Centre, within fifteen(15) Business Days from the date of the disputed Transaction. The Customer acknowledges that any request, after fifteen (15) Business Days from the date of the disputed Transaction shall not be accepted by us.
+        \n\n <b>IX. QUALITY OF GOODS AND SERVICES</b>
+        \n\n Any dispute with or complaint against any Merchant Establishment regarding any goods purchased or services availed must be directly resolved by the Customer with the Merchant Establishment.
+        \n\n <b>X. DISCLOSURES</b>
+        \n\n a) The Customer acknowledges and consents to sharing of information pertaining to the Customer and the usage of the PPI with any other banks or financial or statutory or regulatory authorities only in case of any financial misuse/fraud/legal cases where RBI, any regulatory authority, Government of India or Court directs us to disclose such information.
+        \n\n b) The Customer acknowledges and agrees that we may report to any other banks or financial or statutory or regulatory authorities, any Customer delinquencies and/or the usage of the PPI only in case of any financial misuse/fraud/legal cases where RBI, any regulatory authority, Government of India or Court directs us to disclose such information. We shall not be obliged to disclose the details of such banks or financial or statutory or regulatory authorities to the Customer, including the extent of such disclosure unless RBI, any regulatory authority, Government of India or Court expressly permits us to disclose the name of the said financial entity.
+        \n\n c) The Customer hereby authorized us and our agents to exchange, share or part with all the information relating to the Customer\'s details and payment history with our group companies or Affiliates only in case of any financial misuse/fraud/legal cases where RBI, any regulatory authority, Government of India or Court directs us to disclose such information.
+        \n\n <b>XI. GOVERNING LAW AND JURISDICTION </b>
+        \n\n All disputes arising in relation to these Terms and Conditions shall be governed by and construed in accordance with the laws of India and shall be subject to the exclusive jurisdiction of Courts of Delhi.
+        \n\n <b>XII. AMENDMENT OF THE TERMS AND CONDITION </b>
+        \n\n a) We reserve the sole right to change, these Terms and Conditions, features and benefits offered on the PPI, including but not limited to Charges.
+        \n\n b) We shall communicate the amended Terms and Conditions by hosting them on our website or in any other manner as decided by us.
+        \n\n c) The Customer shall be responsible for regularly reviewing these Terms and Conditions, including amendments thereto as may be posted on our website and shall be deemed to have accepted the amended Terms and Conditions by continuing to use the PPI.
+        \n\n <b>XIII. CUSTOMER GRIEVANCE REDRESSAL</b>
+        \n\n a) In the event of any dispute or grievance in ralation to the PPI and/or these Terms and Conditions, the Customer may contact the Customer Care Centre on details available on the website.
+        \n\n b) In the event the dispute or grievance in relation to the PPI and/or these Terms and Conditions is not adequately addressed or resolved by We Customer Care Centre, the Customer may approach the Nodal Officer, details of which can be found on our website.
+        \n\n c) We agree that all complaints, disputes or grievance raised by the Customer shall be addressed and/or resolved in a time bound manner.
+        \n\n d) The Customer may at any time approach the Banking Ombudsman for the grievance redressal. The list of Banking Ombudsman is available on the website of Reserve Bank of India i.e. <a href="rbi.org.in/">rbi.org.in</a>
+
+    </string>
+
+
+    <string name="text_a7"><b>II. TERMS AND CONDITIONS FOR RELODABLE CARD (OTHER THAN MEAL CARD AND GIFT CARD)</b>
+        \n\n This section lays out the Terms and Conditions which shall be applicable only to the Reloadable Card(s) issued by us.
+        \n\n <b>A. DEFINITION</b>
+        \n\n For the purposes of this section \"Reloadable Card\" shall mean physical or Reloadable cards issued by the Issuer and provided by us, which can be used for purchasing goods and services.
+        \n\n <b>B. CHARACTERISTICS OF RELOADABLE CARD</b>
+        \n\n 1. Reloadable Card cannot, under any circumstances, be exchanged for cash.
+        \n\n 2. Reloadable Card is reloadable in nature.
+        \n\n <b>C. ACCEPTANCE AND USAGE OF RELOADABLE CARD</b>
+        \n\n 1. Upon completion of KYC formalities Customer will be able to use the Reloadable Card for the maximum limit as prescribed under the Regulations from time to time. At present, the KYC formalities and maximum limit prescribed is as follows:
+        \n\n a) Upto \u20B9 10,000/- by accepting minimum details of Customer:
+        \n\n i) The minimum details shall include mobile number verified with One Time Pin (OTP) and self-declaration of name and unique identification number of any of the "officially valid document" defined under Rule 2(d) of the PML Rules 2005, as amended from time to time.
+        \n\n ii) The amount loaded in such Reloadable Cards during any month shall not exceed \u20B9 10,000/- and the total amount loaded during the financial year shall not exceed \u20B91,00,000/-.
+        \n\n iii) The amount outstanding at any point of time in such Reloadable Cards shall not exceed \u20B910,000/.
+        \n\n iv) The total amount debited from such Reloadable Cards during any given month shall not exceed \u20B9 10,000/-.
+        \n\n v) The Reloadable Cards issued under this type shall be converted into KYC compliant Reloadable Cards within a period of 12 months from the date of issue of the Reloadable Cards. If not done, no further reload shall be allowed in such Reloadable Cards. However, the Customer shall be allowed to use the balance available in the Reloadable Card.
+        \n\n b) Upto \u20B9 1,00,000/- after completing KYC of the Customer.
+        \n\n i. KYC requirements are specified under the Regulations issued by Reserve Bank of India and/or any other competent authority constituted by Government of India and/or Ministry of Finance, Ministry of Electronics &amp; Information Technology or such other competent Ministry working under the instructions of Government of India from time to time.
+        \n\n ii. After completion of the KYC formalities, the amount outstanding on the Reloadable Cards shall not exceed \u20B9 1,00,000/- at any point of time.
+        \n\n 2. We shall not be held responsible with regards to the quality of goods and services provided to the Customer by the Merchant Establishment.
+        \n\n 3. The Reloadable Card shall be used only for bonafide personal/ official purposes. It is clarified the charges incurred at certain Merchant Establishment, include a charge for availing certain additional services or other facilities by such Merchant Establishments.
+        \n\n 4. The Customer acknowledges that all refunds in case of failed, returned, rejected or cancelled TransactionData done by the Customer using any other PPI cannot be credited in the Reloadable Card.
+        \n\n 5. The Customer hereby acknowledges and agrees that the Reloadable Card can be reloaded as per the request placed by the corporate.
+
+    </string>
+
+
+    <string name="text_a8"> Note: The above Charges are exclusive of all taxes. All taxes as applicable will be levied in addition to the Charges mentioned above.</string>
+
+
+</resources>

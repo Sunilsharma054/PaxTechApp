@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.paxtechnology.paxapp.Activity.BillingAddressActivity"
+    android:background="@drawable/back_img2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/scroll_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/billing_back_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/ic_close_white" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="24dp"
+                    android:text="Billing Address"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/title_dimens"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/billing_back_img"
+                    app:layout_constraintStart_toEndOf="@+id/billing_back_img"
+                    app:layout_constraintTop_toTopOf="@+id/billing_back_img" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@drawable/border_square_white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/billing_back_img">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/bill_address1_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:errorEnabled="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bill_address1_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Address 1"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_dimens"
+                            android:theme="@style/MyEditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/bill_address2_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:errorEnabled="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/bill_address1_layout"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bill_address2_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Address 2"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_dimens"
+                            android:theme="@style/MyEditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/bill_city_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:errorEnabled="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/bill_address2_layout"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bill_city_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="City"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_dimens"
+                            android:theme="@style/MyEditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/bill_state_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:errorEnabled="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/bill_city_layout"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bill_state_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/ic_arrow_down"
+                            android:hint="State"
+                            android:inputType="text"
+                            android:focusable="false"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_dimens"
+                            android:theme="@style/MyEditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/bill_country_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:errorEnabled="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/bill_state_layout"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bill_country_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:drawableRight="@drawable/ic_arrow_down"
+                            android:hint="Country"
+                            android:inputType="text"
+                            android:focusable="false"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_dimens"
+                            android:theme="@style/MyEditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/bill_zip_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        app:errorEnabled="true"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/bill_country_layout"
+                        tools:ignore="MissingConstraints">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/bill_zip_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Zip"
+                            android:inputType="text"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/medium_dimens"
+                            android:theme="@style/MyEditText" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <TextView
+                        android:id="@+id/save_bill_address_tx"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="24dp"
+                        android:background="@drawable/border_square"
+                        android:gravity="center"
+                        android:text="SAVE"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/subtitle_dimens"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/bill_zip_layout" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
